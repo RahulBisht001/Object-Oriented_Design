@@ -15,3 +15,6 @@ import static Packages.B.Message.message;
 ```
 
 ### **Static Keyword**
+
+* We can only access a static method or static variables from another static context.
+* Non-Static methods cannot be accessed from static context.
