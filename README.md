@@ -5,7 +5,7 @@
    2. Polymorphism
    3. Abstract classes and Abstraction
    4. Encapsulation
-   5. Inheritance
+   5. Properties.Inheritance
    6. Packages
    7. static and non-static
    8. this keyword
