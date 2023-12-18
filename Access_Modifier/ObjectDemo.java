@@ -1,5 +1,7 @@
 package Access_Modifier;
 
+import java.lang.reflect.Method;
+
 public class ObjectDemo {
 
     public ObjectDemo() {
@@ -29,10 +31,14 @@ public class ObjectDemo {
     public static void main(String[] args) {
         ObjectDemo obj = new ObjectDemo();
         System.out.println(obj instanceof ObjectDemo);
-        System.out.println(obj.getClass().getMethods());
+
+        Method[] methods = obj.getClass().getMethods();
+        for (Method method : methods) {
+            System.out.println(method);
+        }
     }
 
-    public static void helper(){
+    public static void helper() {
         System.out.println();
     }
 }
